@@ -41,6 +41,7 @@ module.exports = function (deployer) {
 };
 
 测试开始（每次启动ganache-cli网络需要重新填写测试脚本的合约地址和账户地址）
+
 10. 部署合约到 Ganache
 使用 Truffle 将合约部署到本地的 ganache-cli 网络：
 truffle migrate --network development
