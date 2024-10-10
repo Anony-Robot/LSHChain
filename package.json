@@ -1,0 +1,9 @@
+{
+  "name": "MyDapp",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {},
+  "dependencies": {
+    "web3": "^4.3.0"
+  }
+}

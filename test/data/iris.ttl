@@ -1,0 +1,1056 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/data/0> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.5"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/1> a ex:DataRecord ;
+    ex:attribute1 "4.9"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/2> a ex:DataRecord ;
+    ex:attribute1 "4.7"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "1.3"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/3> a ex:DataRecord ;
+    ex:attribute1 "4.6"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/4> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.6"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/5> a ex:DataRecord ;
+    ex:attribute1 "5.4"^^xsd:float ;
+    ex:attribute2 "3.9"^^xsd:float ;
+    ex:attribute3 "1.7"^^xsd:float ;
+    ex:attribute4 "0.4"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/6> a ex:DataRecord ;
+    ex:attribute1 "4.6"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.3"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/7> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/8> a ex:DataRecord ;
+    ex:attribute1 "4.4"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/9> a ex:DataRecord ;
+    ex:attribute1 "4.9"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.1"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/10> a ex:DataRecord ;
+    ex:attribute1 "5.4"^^xsd:float ;
+    ex:attribute2 "3.7"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/11> a ex:DataRecord ;
+    ex:attribute1 "4.8"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.6"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/12> a ex:DataRecord ;
+    ex:attribute1 "4.8"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.1"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/13> a ex:DataRecord ;
+    ex:attribute1 "4.3"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "1.1"^^xsd:float ;
+    ex:attribute4 "0.1"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/14> a ex:DataRecord ;
+    ex:attribute1 "5.8"^^xsd:float ;
+    ex:attribute2 "4.0"^^xsd:float ;
+    ex:attribute3 "1.2"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/15> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "4.4"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.4"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/16> a ex:DataRecord ;
+    ex:attribute1 "5.4"^^xsd:float ;
+    ex:attribute2 "3.9"^^xsd:float ;
+    ex:attribute3 "1.3"^^xsd:float ;
+    ex:attribute4 "0.4"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/17> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.5"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.3"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/18> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "3.8"^^xsd:float ;
+    ex:attribute3 "1.7"^^xsd:float ;
+    ex:attribute4 "0.3"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/19> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.8"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.3"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/20> a ex:DataRecord ;
+    ex:attribute1 "5.4"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.7"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/21> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.7"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.4"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/22> a ex:DataRecord ;
+    ex:attribute1 "4.6"^^xsd:float ;
+    ex:attribute2 "3.6"^^xsd:float ;
+    ex:attribute3 "1.0"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/23> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.3"^^xsd:float ;
+    ex:attribute3 "1.7"^^xsd:float ;
+    ex:attribute4 "0.5"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/24> a ex:DataRecord ;
+    ex:attribute1 "4.8"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.9"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/25> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "1.6"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/26> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.6"^^xsd:float ;
+    ex:attribute4 "0.4"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/27> a ex:DataRecord ;
+    ex:attribute1 "5.2"^^xsd:float ;
+    ex:attribute2 "3.5"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/28> a ex:DataRecord ;
+    ex:attribute1 "5.2"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/29> a ex:DataRecord ;
+    ex:attribute1 "4.7"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "1.6"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/30> a ex:DataRecord ;
+    ex:attribute1 "4.8"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "1.6"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/31> a ex:DataRecord ;
+    ex:attribute1 "5.4"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.4"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/32> a ex:DataRecord ;
+    ex:attribute1 "5.2"^^xsd:float ;
+    ex:attribute2 "4.1"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.1"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/33> a ex:DataRecord ;
+    ex:attribute1 "5.5"^^xsd:float ;
+    ex:attribute2 "4.2"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/34> a ex:DataRecord ;
+    ex:attribute1 "4.9"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.1"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/35> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "1.2"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/36> a ex:DataRecord ;
+    ex:attribute1 "5.5"^^xsd:float ;
+    ex:attribute2 "3.5"^^xsd:float ;
+    ex:attribute3 "1.3"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/37> a ex:DataRecord ;
+    ex:attribute1 "4.9"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.1"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/38> a ex:DataRecord ;
+    ex:attribute1 "4.4"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "1.3"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/39> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/40> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.5"^^xsd:float ;
+    ex:attribute3 "1.3"^^xsd:float ;
+    ex:attribute4 "0.3"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/41> a ex:DataRecord ;
+    ex:attribute1 "4.5"^^xsd:float ;
+    ex:attribute2 "2.3"^^xsd:float ;
+    ex:attribute3 "1.3"^^xsd:float ;
+    ex:attribute4 "0.3"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/42> a ex:DataRecord ;
+    ex:attribute1 "4.4"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "1.3"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/43> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.5"^^xsd:float ;
+    ex:attribute3 "1.6"^^xsd:float ;
+    ex:attribute4 "0.6"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/44> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.8"^^xsd:float ;
+    ex:attribute3 "1.9"^^xsd:float ;
+    ex:attribute4 "0.4"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/45> a ex:DataRecord ;
+    ex:attribute1 "4.8"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.3"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/46> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "3.8"^^xsd:float ;
+    ex:attribute3 "1.6"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/47> a ex:DataRecord ;
+    ex:attribute1 "4.6"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/48> a ex:DataRecord ;
+    ex:attribute1 "5.3"^^xsd:float ;
+    ex:attribute2 "3.7"^^xsd:float ;
+    ex:attribute3 "1.5"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/49> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "3.3"^^xsd:float ;
+    ex:attribute3 "1.4"^^xsd:float ;
+    ex:attribute4 "0.2"^^xsd:float ;
+    ex:attribute5 "1"^^xsd:float ; .
+
+<http://example.org/data/50> a ex:DataRecord ;
+    ex:attribute1 "7.0"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "4.7"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/51> a ex:DataRecord ;
+    ex:attribute1 "6.4"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/52> a ex:DataRecord ;
+    ex:attribute1 "6.9"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "4.9"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/53> a ex:DataRecord ;
+    ex:attribute1 "5.5"^^xsd:float ;
+    ex:attribute2 "2.3"^^xsd:float ;
+    ex:attribute3 "4.0"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/54> a ex:DataRecord ;
+    ex:attribute1 "6.5"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.6"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/55> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/56> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "3.3"^^xsd:float ;
+    ex:attribute3 "4.7"^^xsd:float ;
+    ex:attribute4 "1.6"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/57> a ex:DataRecord ;
+    ex:attribute1 "4.9"^^xsd:float ;
+    ex:attribute2 "2.4"^^xsd:float ;
+    ex:attribute3 "3.3"^^xsd:float ;
+    ex:attribute4 "1.0"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/58> a ex:DataRecord ;
+    ex:attribute1 "6.6"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "4.6"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/59> a ex:DataRecord ;
+    ex:attribute1 "5.2"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "3.9"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/60> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "2.0"^^xsd:float ;
+    ex:attribute3 "3.5"^^xsd:float ;
+    ex:attribute4 "1.0"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/61> a ex:DataRecord ;
+    ex:attribute1 "5.9"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.2"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/62> a ex:DataRecord ;
+    ex:attribute1 "6.0"^^xsd:float ;
+    ex:attribute2 "2.2"^^xsd:float ;
+    ex:attribute3 "4.0"^^xsd:float ;
+    ex:attribute4 "1.0"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/63> a ex:DataRecord ;
+    ex:attribute1 "6.1"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "4.7"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/64> a ex:DataRecord ;
+    ex:attribute1 "5.6"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "3.6"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/65> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "4.4"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/66> a ex:DataRecord ;
+    ex:attribute1 "5.6"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/67> a ex:DataRecord ;
+    ex:attribute1 "5.8"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "4.1"^^xsd:float ;
+    ex:attribute4 "1.0"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/68> a ex:DataRecord ;
+    ex:attribute1 "6.2"^^xsd:float ;
+    ex:attribute2 "2.2"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/69> a ex:DataRecord ;
+    ex:attribute1 "5.6"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "3.9"^^xsd:float ;
+    ex:attribute4 "1.1"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/70> a ex:DataRecord ;
+    ex:attribute1 "5.9"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "4.8"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/71> a ex:DataRecord ;
+    ex:attribute1 "6.1"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.0"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/72> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "4.9"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/73> a ex:DataRecord ;
+    ex:attribute1 "6.1"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.7"^^xsd:float ;
+    ex:attribute4 "1.2"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/74> a ex:DataRecord ;
+    ex:attribute1 "6.4"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "4.3"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/75> a ex:DataRecord ;
+    ex:attribute1 "6.6"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.4"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/76> a ex:DataRecord ;
+    ex:attribute1 "6.8"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.8"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/77> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.0"^^xsd:float ;
+    ex:attribute4 "1.7"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/78> a ex:DataRecord ;
+    ex:attribute1 "6.0"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/79> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "2.6"^^xsd:float ;
+    ex:attribute3 "3.5"^^xsd:float ;
+    ex:attribute4 "1.0"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/80> a ex:DataRecord ;
+    ex:attribute1 "5.5"^^xsd:float ;
+    ex:attribute2 "2.4"^^xsd:float ;
+    ex:attribute3 "3.8"^^xsd:float ;
+    ex:attribute4 "1.1"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/81> a ex:DataRecord ;
+    ex:attribute1 "5.5"^^xsd:float ;
+    ex:attribute2 "2.4"^^xsd:float ;
+    ex:attribute3 "3.7"^^xsd:float ;
+    ex:attribute4 "1.0"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/82> a ex:DataRecord ;
+    ex:attribute1 "5.8"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "3.9"^^xsd:float ;
+    ex:attribute4 "1.2"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/83> a ex:DataRecord ;
+    ex:attribute1 "6.0"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "1.6"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/84> a ex:DataRecord ;
+    ex:attribute1 "5.4"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/85> a ex:DataRecord ;
+    ex:attribute1 "6.0"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.6"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/86> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "4.7"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/87> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "2.3"^^xsd:float ;
+    ex:attribute3 "4.4"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/88> a ex:DataRecord ;
+    ex:attribute1 "5.6"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.1"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/89> a ex:DataRecord ;
+    ex:attribute1 "5.5"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "4.0"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/90> a ex:DataRecord ;
+    ex:attribute1 "5.5"^^xsd:float ;
+    ex:attribute2 "2.6"^^xsd:float ;
+    ex:attribute3 "4.4"^^xsd:float ;
+    ex:attribute4 "1.2"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/91> a ex:DataRecord ;
+    ex:attribute1 "6.1"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.6"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/92> a ex:DataRecord ;
+    ex:attribute1 "5.8"^^xsd:float ;
+    ex:attribute2 "2.6"^^xsd:float ;
+    ex:attribute3 "4.0"^^xsd:float ;
+    ex:attribute4 "1.2"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/93> a ex:DataRecord ;
+    ex:attribute1 "5.0"^^xsd:float ;
+    ex:attribute2 "2.3"^^xsd:float ;
+    ex:attribute3 "3.3"^^xsd:float ;
+    ex:attribute4 "1.0"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/94> a ex:DataRecord ;
+    ex:attribute1 "5.6"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "4.2"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/95> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.2"^^xsd:float ;
+    ex:attribute4 "1.2"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/96> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "4.2"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/97> a ex:DataRecord ;
+    ex:attribute1 "6.2"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "4.3"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/98> a ex:DataRecord ;
+    ex:attribute1 "5.1"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "3.0"^^xsd:float ;
+    ex:attribute4 "1.1"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/99> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.1"^^xsd:float ;
+    ex:attribute4 "1.3"^^xsd:float ;
+    ex:attribute5 "2"^^xsd:float ; .
+
+<http://example.org/data/100> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "3.3"^^xsd:float ;
+    ex:attribute3 "6.0"^^xsd:float ;
+    ex:attribute4 "2.5"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/101> a ex:DataRecord ;
+    ex:attribute1 "5.8"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "1.9"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/102> a ex:DataRecord ;
+    ex:attribute1 "7.1"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.9"^^xsd:float ;
+    ex:attribute4 "2.1"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/103> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "5.6"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/104> a ex:DataRecord ;
+    ex:attribute1 "6.5"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.8"^^xsd:float ;
+    ex:attribute4 "2.2"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/105> a ex:DataRecord ;
+    ex:attribute1 "7.6"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "6.6"^^xsd:float ;
+    ex:attribute4 "2.1"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/106> a ex:DataRecord ;
+    ex:attribute1 "4.9"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "4.5"^^xsd:float ;
+    ex:attribute4 "1.7"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/107> a ex:DataRecord ;
+    ex:attribute1 "7.3"^^xsd:float ;
+    ex:attribute2 "2.9"^^xsd:float ;
+    ex:attribute3 "6.3"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/108> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "5.8"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/109> a ex:DataRecord ;
+    ex:attribute1 "7.2"^^xsd:float ;
+    ex:attribute2 "3.6"^^xsd:float ;
+    ex:attribute3 "6.1"^^xsd:float ;
+    ex:attribute4 "2.5"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/110> a ex:DataRecord ;
+    ex:attribute1 "6.5"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "2.0"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/111> a ex:DataRecord ;
+    ex:attribute1 "6.4"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "5.3"^^xsd:float ;
+    ex:attribute4 "1.9"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/112> a ex:DataRecord ;
+    ex:attribute1 "6.8"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.5"^^xsd:float ;
+    ex:attribute4 "2.1"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/113> a ex:DataRecord ;
+    ex:attribute1 "5.7"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "5.0"^^xsd:float ;
+    ex:attribute4 "2.0"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/114> a ex:DataRecord ;
+    ex:attribute1 "5.8"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "2.4"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/115> a ex:DataRecord ;
+    ex:attribute1 "6.4"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "5.3"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/116> a ex:DataRecord ;
+    ex:attribute1 "6.5"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.5"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/117> a ex:DataRecord ;
+    ex:attribute1 "7.7"^^xsd:float ;
+    ex:attribute2 "3.8"^^xsd:float ;
+    ex:attribute3 "6.7"^^xsd:float ;
+    ex:attribute4 "2.2"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/118> a ex:DataRecord ;
+    ex:attribute1 "7.7"^^xsd:float ;
+    ex:attribute2 "2.6"^^xsd:float ;
+    ex:attribute3 "6.9"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/119> a ex:DataRecord ;
+    ex:attribute1 "6.0"^^xsd:float ;
+    ex:attribute2 "2.2"^^xsd:float ;
+    ex:attribute3 "5.0"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/120> a ex:DataRecord ;
+    ex:attribute1 "6.9"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "5.7"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/121> a ex:DataRecord ;
+    ex:attribute1 "5.6"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.9"^^xsd:float ;
+    ex:attribute4 "2.0"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/122> a ex:DataRecord ;
+    ex:attribute1 "7.7"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "6.7"^^xsd:float ;
+    ex:attribute4 "2.0"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/123> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "4.9"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/124> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "3.3"^^xsd:float ;
+    ex:attribute3 "5.7"^^xsd:float ;
+    ex:attribute4 "2.1"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/125> a ex:DataRecord ;
+    ex:attribute1 "7.2"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "6.0"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/126> a ex:DataRecord ;
+    ex:attribute1 "6.2"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "4.8"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/127> a ex:DataRecord ;
+    ex:attribute1 "6.1"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.9"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/128> a ex:DataRecord ;
+    ex:attribute1 "6.4"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "5.6"^^xsd:float ;
+    ex:attribute4 "2.1"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/129> a ex:DataRecord ;
+    ex:attribute1 "7.2"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.8"^^xsd:float ;
+    ex:attribute4 "1.6"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/130> a ex:DataRecord ;
+    ex:attribute1 "7.4"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "6.1"^^xsd:float ;
+    ex:attribute4 "1.9"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/131> a ex:DataRecord ;
+    ex:attribute1 "7.9"^^xsd:float ;
+    ex:attribute2 "3.8"^^xsd:float ;
+    ex:attribute3 "6.4"^^xsd:float ;
+    ex:attribute4 "2.0"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/132> a ex:DataRecord ;
+    ex:attribute1 "6.4"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "5.6"^^xsd:float ;
+    ex:attribute4 "2.2"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/133> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "2.8"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "1.5"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/134> a ex:DataRecord ;
+    ex:attribute1 "6.1"^^xsd:float ;
+    ex:attribute2 "2.6"^^xsd:float ;
+    ex:attribute3 "5.6"^^xsd:float ;
+    ex:attribute4 "1.4"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/135> a ex:DataRecord ;
+    ex:attribute1 "7.7"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "6.1"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/136> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "5.6"^^xsd:float ;
+    ex:attribute4 "2.4"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/137> a ex:DataRecord ;
+    ex:attribute1 "6.4"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "5.5"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/138> a ex:DataRecord ;
+    ex:attribute1 "6.0"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "4.8"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/139> a ex:DataRecord ;
+    ex:attribute1 "6.9"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "5.4"^^xsd:float ;
+    ex:attribute4 "2.1"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/140> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "5.6"^^xsd:float ;
+    ex:attribute4 "2.4"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/141> a ex:DataRecord ;
+    ex:attribute1 "6.9"^^xsd:float ;
+    ex:attribute2 "3.1"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/142> a ex:DataRecord ;
+    ex:attribute1 "5.8"^^xsd:float ;
+    ex:attribute2 "2.7"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "1.9"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/143> a ex:DataRecord ;
+    ex:attribute1 "6.8"^^xsd:float ;
+    ex:attribute2 "3.2"^^xsd:float ;
+    ex:attribute3 "5.9"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/144> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "3.3"^^xsd:float ;
+    ex:attribute3 "5.7"^^xsd:float ;
+    ex:attribute4 "2.5"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/145> a ex:DataRecord ;
+    ex:attribute1 "6.7"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.2"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/146> a ex:DataRecord ;
+    ex:attribute1 "6.3"^^xsd:float ;
+    ex:attribute2 "2.5"^^xsd:float ;
+    ex:attribute3 "5.0"^^xsd:float ;
+    ex:attribute4 "1.9"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/147> a ex:DataRecord ;
+    ex:attribute1 "6.5"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.2"^^xsd:float ;
+    ex:attribute4 "2.0"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/148> a ex:DataRecord ;
+    ex:attribute1 "6.2"^^xsd:float ;
+    ex:attribute2 "3.4"^^xsd:float ;
+    ex:attribute3 "5.4"^^xsd:float ;
+    ex:attribute4 "2.3"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/149> a ex:DataRecord ;
+    ex:attribute1 "5.9"^^xsd:float ;
+    ex:attribute2 "3.0"^^xsd:float ;
+    ex:attribute3 "5.1"^^xsd:float ;
+    ex:attribute4 "1.8"^^xsd:float ;
+    ex:attribute5 "3"^^xsd:float ; .
+
+<http://example.org/data/150> a ex:DataRecord ;
+    ex:attribute1 ""^^xsd:float ; .
+

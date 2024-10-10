@@ -1,0 +1,902 @@
+[
+  {
+    "@id": "0.0",
+    "attribute1": 0.244740997,
+    "attribute2": 8.12540111,
+    "attribute3": 3.548744461,
+    "attribute4": 71.26857841,
+    "attribute5": 2092.462105,
+    "attribute6": 1.0
+  },
+  {
+    "@id": "1.0",
+    "attribute1": 0.138032904,
+    "attribute2": 4.499872663,
+    "attribute3": 1.82203433,
+    "attribute4": 64.46136607,
+    "attribute5": 1773.639994,
+    "attribute6": 1.0
+  },
+  {
+    "@id": "2.0",
+    "attribute1": 0.480415627,
+    "attribute2": 22.03906688,
+    "attribute3": 14.65267662,
+    "attribute4": 99.6261906,
+    "attribute5": 2968.458132,
+    "attribute6": 1.0
+  },
+  {
+    "@id": "3.0",
+    "attribute1": 0.077777212,
+    "attribute2": 25.1738909,
+    "attribute3": 8.503641828,
+    "attribute4": 39.66637804,
+    "attribute5": 1682.061835,
+    "attribute6": 1.0
+  },
+  {
+    "@id": "4.0",
+    "attribute1": 0.0,
+    "attribute2": 0.192685784,
+    "attribute3": 0.096342892,
+    "attribute4": 6.514261702,
+    "attribute5": 163.1529822,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "5.0",
+    "attribute1": 0.083278154,
+    "attribute2": 5.052208017,
+    "attribute3": 2.068074161,
+    "attribute4": 24.74749147,
+    "attribute5": 843.260709,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "6.0",
+    "attribute1": 0.070391687,
+    "attribute2": 5.085799419,
+    "attribute3": 2.956450874,
+    "attribute4": 29.84607549,
+    "attribute5": 1041.708985,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "7.0",
+    "attribute1": 0.01314114,
+    "attribute2": 2.036876687,
+    "attribute3": 1.721489329,
+    "attribute4": 6.465440839,
+    "attribute5": 248.7749198,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "8.0",
+    "attribute1": 0.02847247,
+    "attribute2": 2.946900626,
+    "attribute3": 1.138898793,
+    "attribute4": 24.57174146,
+    "attribute5": 739.9283095,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "9.0",
+    "attribute1": 0.038200988,
+    "attribute2": 4.049304742,
+    "attribute3": 2.292059288,
+    "attribute4": 29.37655987,
+    "attribute5": 1032.037895,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "10.0",
+    "attribute1": 0.091071156,
+    "attribute2": 7.228772984,
+    "attribute3": 3.483471706,
+    "attribute4": 14.46892986,
+    "attribute5": 527.4385983,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "11.0",
+    "attribute1": 0.027428309,
+    "attribute2": 10.77932563,
+    "attribute3": 3.922248255,
+    "attribute4": 40.26475832,
+    "attribute5": 1313.953166,
+    "attribute6": 1.0
+  },
+  {
+    "@id": "12.0",
+    "attribute1": 0.146691794,
+    "attribute2": 5.879896093,
+    "attribute3": 2.628227983,
+    "attribute4": 18.89879285,
+    "attribute5": 731.8331381,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "13.0",
+    "attribute1": 0.0,
+    "attribute2": 0.764019763,
+    "attribute3": 0.106962767,
+    "attribute4": 17.96974482,
+    "attribute5": 488.1780675,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "14.0",
+    "attribute1": 0.027810319,
+    "attribute2": 0.264198034,
+    "attribute3": 0.166861916,
+    "attribute4": 13.34895329,
+    "attribute5": 404.5845261,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "15.0",
+    "attribute1": 0.0,
+    "attribute2": 2.310395762,
+    "attribute3": 0.798655325,
+    "attribute4": 18.08383844,
+    "attribute5": 528.8239189,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "16.0",
+    "attribute1": 0.008251413,
+    "attribute2": 3.564610605,
+    "attribute3": 1.89782509,
+    "attribute4": 5.487189935,
+    "attribute5": 344.0509347,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "17.0",
+    "attribute1": 0.031172006,
+    "attribute2": 3.210716651,
+    "attribute3": 0.602658789,
+    "attribute4": 10.44262212,
+    "attribute5": 359.5898742,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "18.0",
+    "attribute1": 0.023175266,
+    "attribute2": 0.822721948,
+    "attribute3": 0.115876331,
+    "attribute4": 11.48334437,
+    "attribute5": 332.3101411,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "19.0",
+    "attribute1": 0.0,
+    "attribute2": 4.35488718,
+    "attribute3": 3.744919269,
+    "attribute4": 13.75974125,
+    "attribute5": 530.0195589,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "20.0",
+    "attribute1": 0.012326186,
+    "attribute2": 0.345133194,
+    "attribute3": 0.203382061,
+    "attribute4": 3.013752356,
+    "attribute5": 135.6743238,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "21.0",
+    "attribute1": 0.0,
+    "attribute2": 0.411042632,
+    "attribute3": 0.171267763,
+    "attribute4": 4.19948556,
+    "attribute5": 131.0129883,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "22.0",
+    "attribute1": 0.009932257,
+    "attribute2": 0.67539347,
+    "attribute3": 0.188712881,
+    "attribute4": 8.382824836,
+    "attribute5": 238.6125401,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "23.0",
+    "attribute1": 0.045026231,
+    "attribute2": 2.18377222,
+    "attribute3": 0.911781185,
+    "attribute4": 10.22095452,
+    "attribute5": 331.4718586,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "24.0",
+    "attribute1": 0.005959354,
+    "attribute2": 0.339683186,
+    "attribute3": 0.190699333,
+    "attribute4": 4.034482759,
+    "attribute5": 129.2285947,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "25.0",
+    "attribute1": 0.024066623,
+    "attribute2": 2.83183925,
+    "attribute3": 0.810242958,
+    "attribute4": 7.709341415,
+    "attribute5": 301.3782917,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "26.0",
+    "attribute1": 0.026587888,
+    "attribute2": 2.858197932,
+    "attribute3": 1.010339734,
+    "attribute4": 11.76514032,
+    "attribute5": 449.3353028,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "27.0",
+    "attribute1": 0.029643967,
+    "attribute2": 0.43477818,
+    "attribute3": 0.187745123,
+    "attribute4": 8.586869047,
+    "attribute5": 244.4935568,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "28.0",
+    "attribute1": 0.079050578,
+    "attribute2": 2.509855855,
+    "attribute3": 1.04742016,
+    "attribute4": 15.05913513,
+    "attribute5": 569.5594153,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "29.0",
+    "attribute1": 0.008531554,
+    "attribute2": 0.298604391,
+    "attribute3": 0.383919931,
+    "attribute4": 6.518107268,
+    "attribute5": 172.1923547,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "30.0",
+    "attribute1": 0.012351653,
+    "attribute2": 1.235165283,
+    "attribute3": 0.716395864,
+    "attribute4": 11.06708094,
+    "attribute5": 371.7847502,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "31.0",
+    "attribute1": 0.029032751,
+    "attribute2": 0.67501146,
+    "attribute3": 0.217745632,
+    "attribute4": 4.60169103,
+    "attribute5": 150.3388428,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "32.0",
+    "attribute1": 0.068150563,
+    "attribute2": 6.74690572,
+    "attribute3": 4.316202312,
+    "attribute4": 17.71914634,
+    "attribute5": 778.2112769,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "33.0",
+    "attribute1": 0.023837417,
+    "attribute2": 2.073855244,
+    "attribute3": 0.333723832,
+    "attribute4": 7.985534559,
+    "attribute5": 322.0077421,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "34.0",
+    "attribute1": 0.007487394,
+    "attribute2": 1.714613151,
+    "attribute3": 0.50914277,
+    "attribute4": 4.747007589,
+    "attribute5": 187.0875057,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "35.0",
+    "attribute1": 0.034126216,
+    "attribute2": 2.004915194,
+    "attribute3": 0.91287628,
+    "attribute4": 6.816711659,
+    "attribute5": 213.4850761,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "36.0",
+    "attribute1": 0.019558906,
+    "attribute2": 1.258289614,
+    "attribute3": 1.193093261,
+    "attribute4": 4.172566597,
+    "attribute5": 151.9270616,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "37.0",
+    "attribute1": 0.005832018,
+    "attribute2": 0.58903377,
+    "attribute3": 0.519049559,
+    "attribute4": 4.14073244,
+    "attribute5": 124.7118627,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "38.0",
+    "attribute1": 0.009219172,
+    "attribute2": 0.82050629,
+    "attribute3": 0.405643559,
+    "attribute4": 7.375337442,
+    "attribute5": 237.6241532,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "39.0",
+    "attribute1": 0.049050069,
+    "attribute2": 1.675877349,
+    "attribute3": 0.564075791,
+    "attribute4": 5.886008251,
+    "attribute5": 232.3828758,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "40.0",
+    "attribute1": 0.008913564,
+    "attribute2": 0.155987368,
+    "attribute3": 0.120333113,
+    "attribute4": 2.981587124,
+    "attribute5": 88.55625732,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "41.0",
+    "attribute1": 0.012733663,
+    "attribute2": 0.369276219,
+    "attribute3": 0.534813834,
+    "attribute4": 3.285284979,
+    "attribute5": 109.9042429,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "42.0",
+    "attribute1": 0.0,
+    "attribute2": 1.348775022,
+    "attribute3": 0.472877298,
+    "attribute4": 3.0360872,
+    "attribute5": 156.6137371,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "43.0",
+    "attribute1": 0.011358427,
+    "attribute2": 1.181276422,
+    "attribute3": 1.022258442,
+    "attribute4": 7.973615851,
+    "attribute5": 233.3020934,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "44.0",
+    "attribute1": 0.0,
+    "attribute2": 0.240284215,
+    "attribute3": 0.077930016,
+    "attribute4": 4.429022564,
+    "attribute5": 126.6038048,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "45.0",
+    "attribute1": 0.082259461,
+    "attribute2": 3.208118983,
+    "attribute3": 2.574721133,
+    "attribute4": 6.037844446,
+    "attribute5": 264.3490042,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "46.0",
+    "attribute1": 0.010747211,
+    "attribute2": 0.182702593,
+    "attribute3": 0.016120817,
+    "attribute4": 2.821142974,
+    "attribute5": 81.65193806,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "47.0",
+    "attribute1": 0.115061376,
+    "attribute2": 11.92802934,
+    "attribute3": 6.788621199,
+    "attribute4": 13.34711965,
+    "attribute5": 693.3982071,
+    "attribute6": 1.0
+  },
+  {
+    "@id": "48.0",
+    "attribute1": 0.0,
+    "attribute2": 0.229817145,
+    "attribute3": 0.067030001,
+    "attribute4": 3.643559313,
+    "attribute5": 98.02658789,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "49.0",
+    "attribute1": 0.02770845,
+    "attribute2": 3.103346407,
+    "attribute3": 1.039066877,
+    "attribute4": 9.808791321,
+    "attribute5": 367.6634238,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "50.0",
+    "attribute1": 0.0,
+    "attribute2": 0.474456273,
+    "attribute3": 0.240156879,
+    "attribute4": 3.678500484,
+    "attribute5": 108.6036265,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "51.0",
+    "attribute1": 0.021265217,
+    "attribute2": 0.446569551,
+    "attribute3": 0.276447817,
+    "attribute4": 15.01324301,
+    "attribute5": 414.3102175,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "52.0",
+    "attribute1": 0.012300718,
+    "attribute2": 3.456501808,
+    "attribute3": 1.722100545,
+    "attribute4": 8.315285489,
+    "attribute5": 374.4953649,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "53.0",
+    "attribute1": 0.0,
+    "attribute2": 0.228289105,
+    "attribute3": 0.177558193,
+    "attribute4": 1.72062344,
+    "attribute5": 55.46579738,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "54.0",
+    "attribute1": 0.0,
+    "attribute2": 0.11274385,
+    "attribute3": 0.01780166,
+    "attribute4": 3.637472623,
+    "attribute5": 91.58360923,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "55.0",
+    "attribute1": 0.0,
+    "attribute2": 0.042021087,
+    "attribute3": 0.007640198,
+    "attribute4": 1.394336067,
+    "attribute5": 39.10635155,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "56.0",
+    "attribute1": 0.0,
+    "attribute2": 0.103524678,
+    "attribute3": 0.055213162,
+    "attribute4": 4.182396985,
+    "attribute5": 113.1317679,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "57.0",
+    "attribute1": 0.007283655,
+    "attribute2": 0.648245301,
+    "attribute3": 0.335048133,
+    "attribute4": 4.035144909,
+    "attribute5": 135.6143738,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "58.0",
+    "attribute1": 0.114883105,
+    "attribute2": 1.820455356,
+    "attribute3": 0.724647278,
+    "attribute4": 6.168339021,
+    "attribute5": 293.623542,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "59.0",
+    "attribute1": 0.0,
+    "attribute2": 0.1108338,
+    "attribute3": 0.123873071,
+    "attribute4": 3.403249631,
+    "attribute5": 98.17266847,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "60.0",
+    "attribute1": 0.0,
+    "attribute2": 0.099730046,
+    "attribute3": 0.01133296,
+    "attribute4": 0.310523099,
+    "attribute5": 12.92864055,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "61.0",
+    "attribute1": 0.045535578,
+    "attribute2": 2.519635308,
+    "attribute3": 0.963836398,
+    "attribute4": 4.788824938,
+    "attribute5": 207.9609841,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "62.0",
+    "attribute1": 0.011918708,
+    "attribute2": 1.096521163,
+    "attribute3": 0.744919269,
+    "attribute4": 3.21805124,
+    "attribute5": 117.4171548,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "63.0",
+    "attribute1": 0.037946315,
+    "attribute2": 1.161157235,
+    "attribute3": 0.63749809,
+    "attribute4": 5.578108287,
+    "attribute5": 236.3903632,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "64.0",
+    "attribute1": 0.041358936,
+    "attribute2": 2.336779911,
+    "attribute3": 1.964549483,
+    "attribute4": 6.265878877,
+    "attribute5": 255.2053176,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "65.0",
+    "attribute1": 0.0,
+    "attribute2": 0.015917078,
+    "attribute3": 0.047751235,
+    "attribute4": 1.410253145,
+    "attribute5": 35.940763,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "66.0",
+    "attribute1": 0.008302348,
+    "attribute2": 0.527199104,
+    "attribute3": 0.17434931,
+    "attribute4": 2.552972037,
+    "attribute5": 87.42372536,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "67.0",
+    "attribute1": 0.0,
+    "attribute2": 0.121631946,
+    "attribute3": 0.04561198,
+    "attribute4": 3.147226608,
+    "attribute5": 88.45683288,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "68.0",
+    "attribute1": 0.00733459,
+    "attribute2": 1.57693679,
+    "attribute3": 1.246880253,
+    "attribute4": 3.94600927,
+    "attribute5": 154.3197677,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "69.0",
+    "attribute1": 0.029287424,
+    "attribute2": 0.866907757,
+    "attribute3": 0.386594,
+    "attribute4": 2.407426272,
+    "attribute5": 87.25309428,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "70.0",
+    "attribute1": 0.0,
+    "attribute2": 0.409820201,
+    "attribute3": 0.258034941,
+    "attribute4": 4.424540315,
+    "attribute5": 131.2183568,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "71.0",
+    "attribute1": 0.0,
+    "attribute2": 0.193297,
+    "attribute3": 0.043931136,
+    "attribute4": 1.124637091,
+    "attribute5": 42.56927113,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "72.0",
+    "attribute1": 0.042988845,
+    "attribute2": 3.3208883,
+    "attribute3": 1.477741558,
+    "attribute4": 3.245657821,
+    "attribute5": 188.2105384,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "73.0",
+    "attribute1": 0.027122702,
+    "attribute2": 1.242219732,
+    "attribute3": 0.423114145,
+    "attribute4": 3.466281261,
+    "attribute5": 120.5766821,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "74.0",
+    "attribute1": 0.0,
+    "attribute2": 0.480568431,
+    "attribute3": 0.169612387,
+    "attribute4": 3.047369225,
+    "attribute5": 109.0042276,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "75.0",
+    "attribute1": 0.010339734,
+    "attribute2": 0.098227474,
+    "attribute3": 0.077548006,
+    "attribute4": 2.895125554,
+    "attribute5": 75.37666174,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "76.0",
+    "attribute1": 0.056231855,
+    "attribute2": 3.387969235,
+    "attribute3": 2.221158254,
+    "attribute4": 7.745937962,
+    "attribute5": 383.1357408,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "77.0",
+    "attribute1": 0.006519635,
+    "attribute2": 0.560688636,
+    "attribute3": 0.521570825,
+    "attribute4": 3.090307136,
+    "attribute5": 109.1908521,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "78.0",
+    "attribute1": 0.026893496,
+    "attribute2": 0.295828452,
+    "attribute3": 0.201701217,
+    "attribute4": 3.469260938,
+    "attribute5": 114.5192278,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "79.0",
+    "attribute1": 0.0,
+    "attribute2": 0.781133805,
+    "attribute3": 0.401568787,
+    "attribute4": 2.998013549,
+    "attribute5": 107.427902,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "80.0",
+    "attribute1": 0.045637447,
+    "attribute2": 4.700657057,
+    "attribute3": 2.29328172,
+    "attribute4": 6.799979626,
+    "attribute5": 337.6828809,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "81.0",
+    "attribute1": 0.026536953,
+    "attribute2": 3.091555035,
+    "attribute3": 1.167625936,
+    "attribute4": 8.29279784,
+    "attribute5": 351.879998,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "82.0",
+    "attribute1": 0.012529924,
+    "attribute2": 1.722864565,
+    "attribute3": 0.689145826,
+    "attribute4": 3.025976672,
+    "attribute5": 124.973463,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "83.0",
+    "attribute1": 0.006137625,
+    "attribute2": 2.043829267,
+    "attribute3": 0.736515051,
+    "attribute4": 3.338868232,
+    "attribute5": 166.544466,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "84.0",
+    "attribute1": 0.049406611,
+    "attribute2": 6.052309886,
+    "attribute3": 1.9639128,
+    "attribute4": 6.966332196,
+    "attribute5": 396.8956604,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "85.0",
+    "attribute1": 0.04303978,
+    "attribute2": 4.157642744,
+    "attribute3": 2.590994754,
+    "attribute4": 4.949574696,
+    "attribute5": 259.2974584,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "86.0",
+    "attribute1": 0.014312637,
+    "attribute2": 0.622599705,
+    "attribute3": 0.393597514,
+    "attribute4": 3.027122702,
+    "attribute5": 109.9210513,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "87.0",
+    "attribute1": 0.055467835,
+    "attribute2": 1.959863495,
+    "attribute3": 1.676361229,
+    "attribute4": 3.272602251,
+    "attribute5": 163.7040697,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "88.0",
+    "attribute1": 0.073142159,
+    "attribute2": 3.556537462,
+    "attribute3": 1.435414863,
+    "attribute4": 4.964524016,
+    "attribute5": 255.8512708,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "89.0",
+    "attribute1": 0.034228085,
+    "attribute2": 2.567106402,
+    "attribute3": 1.052513625,
+    "attribute4": 4.39830897,
+    "attribute5": 217.5537106,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "90.0",
+    "attribute1": 0.0,
+    "attribute2": 0.031936026,
+    "attribute3": 0.00580655,
+    "attribute4": 0.824530128,
+    "attribute5": 27.502725,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "91.0",
+    "attribute1": 0.013064738,
+    "attribute2": 4.637981969,
+    "attribute3": 2.521494423,
+    "attribute4": 6.806728467,
+    "attribute5": 327.193297,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "92.0",
+    "attribute1": 0.0,
+    "attribute2": 0.573396832,
+    "attribute3": 0.428233077,
+    "attribute4": 3.454897367,
+    "attribute5": 119.7020323,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "93.0",
+    "attribute1": 0.015636938,
+    "attribute2": 1.188407273,
+    "attribute3": 0.899123924,
+    "attribute4": 3.299393878,
+    "attribute5": 127.5661386,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "94.0",
+    "attribute1": 0.007461926,
+    "attribute2": 0.582030255,
+    "attribute3": 0.63426374,
+    "attribute4": 3.074313656,
+    "attribute5": 100.2211328,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "95.0",
+    "attribute1": 0.0,
+    "attribute2": 0.233229766,
+    "attribute3": 0.171853512,
+    "attribute4": 2.970610706,
+    "attribute5": 96.08452605,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "96.0",
+    "attribute1": 0.0,
+    "attribute2": 0.170325472,
+    "attribute3": 0.101130749,
+    "attribute4": 1.820353486,
+    "attribute5": 60.42296134,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "97.0",
+    "attribute1": 0.021316151,
+    "attribute2": 8.164085978,
+    "attribute3": 4.263230276,
+    "attribute4": 11.97967707,
+    "attribute5": 611.9014415,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "98.0",
+    "attribute1": 0.0,
+    "attribute2": 1.615901798,
+    "attribute3": 0.687617786,
+    "attribute4": 5.466561402,
+    "attribute5": 242.3623491,
+    "attribute6": 0.0
+  },
+  {
+    "@id": "99.0",
+    "attribute1": 0.040442113,
+    "attribute2": 1.870447716,
+    "attribute3": 0.95038965,
+    "attribute4": 5.25747466,
+    "attribute5": 251.2971782,
+    "attribute6": 0.0
+  }
+]
