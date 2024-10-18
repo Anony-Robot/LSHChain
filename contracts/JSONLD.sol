@@ -6,52 +6,65 @@ contract JSONLD {
     struct Transaction {
         address sender;
         uint amount;
-        string[] playload;
-        string[] lshCodes;
+        bytes payload;
+        int lshCodes;
+        bytes TxHash; // 添加 TxHash 字段
     }
 
+    // B+ Tree structure
+    struct BPlusTree {
+        bytes32 rootHash;
+    }
+    // B+ Tree instance
+    BPlusTree private bPlusTree;
+    
     // Array to store transactions
     Transaction[] public transactions;
 
     // Event to log transaction creation
-    event TransactionCreated(address sender, uint amount, string[] playload, string[] lshCodes);
-
+    event TransactionCreated(address sender, uint amount, bytes payload, int lshCodes, bytes TxHash);
     // Function to initiate a transaction
-    function sendTransaction(string[] memory _playload, string[] memory _lshCodes) public payable {
+    function sendTransaction(bytes memory _payload, int _lshCodes) public payable {
+        // 计算交易的哈希
+        bytes32 txHash = keccak256(abi.encodePacked(msg.sender, msg.value, _payload, _lshCodes, block.timestamp));
+        bytes memory txhash = abi.encodePacked(txHash); // 转换为 bytes
         // Create a new transaction and add it to the array
         transactions.push(Transaction({
             sender: msg.sender,
             amount: msg.value,
-            playload: _playload,
-            lshCodes:_lshCodes
+            payload: _payload,
+            lshCodes: _lshCodes,
+            TxHash: txhash // 存储计算得到的交易哈希
         }));
+        
         // Emit an event for the new transaction
-        emit TransactionCreated(msg.sender, msg.value, _playload, _lshCodes);
+        emit TransactionCreated(msg.sender, msg.value, _payload, _lshCodes, txhash);
     }
 
     // Function to get the total number of transactions
     function getTotalTransactions() public view returns (uint) {
         return transactions.length;
     }
-    
-    // Helper function to compare two string arrays
-    function compareStrings(string[] memory a, string[] memory b) internal pure returns (bool) {
+
+    // Helper function to compare two bytes arrays
+    function compareBytes(bytes memory a, bytes memory b) internal pure returns (bool) {
         if (a.length != b.length) {
             return false;
         }
         for (uint i = 0; i < a.length; i++) {
-            if (keccak256(abi.encodePacked(a[i])) != keccak256(abi.encodePacked(b[i]))) {
+            if (a[i] != b[i]) {
                 return false;
             }
         }
         return true;
     }
 
-    // Function to find transactions by playload
-    function findTransactionsByPlayload(string[] memory path) public view returns (uint[] memory) {
+    // Function to find transactions by transaction hash
+    function findTransactionsByTxHash(bytes memory _txhash) public view returns (uint[] memory) {
         uint count = 0;
         for (uint i = 0; i < transactions.length; i++) {
-            if (compareStrings(transactions[i].playload, path)) {
+            // Compare TxHash with the provided hashes
+            if (compareBytes(transactions[i].TxHash, _txhash)) {
                 count++;
             }
         }
@@ -59,7 +72,33 @@ contract JSONLD {
         uint[] memory result = new uint[](count);
         uint resultIndex = 0;
         for (uint i = 0; i < transactions.length; i++) {
-            if (compareStrings(transactions[i].playload, path)) {
+            if (compareBytes(transactions[i].TxHash, _txhash)) {
+                result[resultIndex] = i;
+                resultIndex++;
+            }
+        }
+        return result;
+    }
+    
+    // Function to get the payload of a specific transaction
+    function findTransactionsByIndex(uint index) public view returns (bytes memory) {
+        require(index < transactions.length, "Transaction does not exist");
+        return transactions[index].TxHash;
+    }
+    
+    // Function to find transactions by payload
+    function findTransactionsBypayload(bytes memory path) public view returns (uint[] memory) {
+        uint count = 0;
+        for (uint i = 0; i < transactions.length; i++) {
+            if (compareBytes(transactions[i].payload, path)) {
+                count++;
+            }
+        }
+
+        uint[] memory result = new uint[](count);
+        uint resultIndex = 0;
+        for (uint i = 0; i < transactions.length; i++) {
+            if (compareBytes(transactions[i].payload, path)) {
                 result[resultIndex] = i;
                 resultIndex++;
             }
@@ -68,10 +107,10 @@ contract JSONLD {
     }
     
     // Function to find transactions by lshCodes
-    function findTransactionsByLSHCodes(string[] memory _lshCodes) public view returns (uint[] memory) {
+    function findTransactionsByLSHCodes(int _lshCodes) public view returns (uint[] memory) {
         uint count = 0;
         for (uint i = 0; i < transactions.length; i++) {
-            if (compareStrings(transactions[i].lshCodes, _lshCodes)) {
+            if (transactions[i].lshCodes == _lshCodes) {
                 count++;
             }
         }
@@ -79,7 +118,7 @@ contract JSONLD {
         uint[] memory result = new uint[](count);
         uint resultIndex = 0;
         for (uint i = 0; i < transactions.length; i++) {
-            if (compareStrings(transactions[i].lshCodes, _lshCodes)) {
+            if (transactions[i].lshCodes == _lshCodes) {
                 result[resultIndex] = i;
                 resultIndex++;
             }
@@ -87,12 +126,6 @@ contract JSONLD {
         return result;
     }
     
-    // Function to get the playload of a specific transaction
-    function findTransactionsByIndex(uint index) public view returns (string[] memory) {
-        require(index < transactions.length, "Transaction does not exist");
-        return transactions[index].playload;
-    }
-
     // Fallback function to receive Ether
     receive() external payable {}
 }

@@ -53,6 +53,8 @@ module.exports = function (deployer) {
 使用 Truffle 将合约部署到本地的 ganache-cli 网络：
 truffle migrate --network development
 11. 编写和运行测试
+安装必要的依赖
+npm install n3 rdf-store-fs
 在 test 文件夹中编写合约的测试脚本。然后使用 Truffle 运行测试：
 node jsonld.js
 

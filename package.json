@@ -4,6 +4,9 @@
   "requires": true,
   "packages": {},
   "dependencies": {
+    "n3": "^1.22.3",
+    "rdf-ext": "^2.5.2",
+    "rdf-store-fs": "^2.0.2",
     "web3": "^4.3.0"
   }
 }
